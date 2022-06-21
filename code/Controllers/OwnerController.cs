@@ -120,4 +120,43 @@ public class OwnerController : ControllerBase
             return StatusCode(500, "Internal server error");
         }
     }
+
+    [HttpPut("{id}")]
+    public IActionResult UpdateOwner(Guid id, [FromBody]OwnerForUpdateDto owner)
+    {
+        try
+        {
+            if (owner is null)
+            {
+                _logger.LOgError("Owner object sent from client is null.");
+                return BadRequest("Owner object is null");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                _logger.LOgError("Invalid owner object sent from client.");
+                return BadRequest("Invalid model object");
+            }
+
+            var ownerEntity = _repWrapper.Owner.GetOwnerById(id);
+            if (ownerEntity is null)
+            {
+                _logger.LOgError($"Owner with id: {id}, hasn't been found in db.");
+                return NotFound();
+            }
+
+            _mapper.Map(owner, ownerEntity);
+
+            _repWrapper.Owner.UpdateOwner(ownerEntity);
+            _repWrapper.Save();
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            _logger.LOgError($"Something went wrong inside UpdateOwner action: {ex.Message}");
+            return StatusCode(500, "Internal server error");
+        }
+    }
+    
 }

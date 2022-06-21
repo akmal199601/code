@@ -8,5 +8,6 @@ public class MappingProfile:Profile
     {
         CreateMap<Owner, OwnerDto>();
         CreateMap<Account, AccountDto>();
+        CreateMap<OwnerForUpdateDto, Owner>();
     }
 }
