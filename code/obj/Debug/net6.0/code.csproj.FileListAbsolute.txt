@@ -42,3 +42,7 @@
 /home/akmal199601/RiderProjects/practica/Company/code/code/obj/Debug/net6.0/code.pdb
 /home/akmal199601/RiderProjects/practica/Company/code/code/obj/Debug/net6.0/code.genruntimeconfig.cache
 /home/akmal199601/RiderProjects/practica/Company/code/code/obj/Debug/net6.0/ref/code.dll
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/Repository.dll
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/Repository.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/AutoMapper.dll
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

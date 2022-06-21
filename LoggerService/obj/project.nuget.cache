@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nyrMyeJJoOnPFWp49ocC4cIDBrqL+rOscndCea5qqJqmJCAnl5BpjcJCHr7p5jTObPFoHaqiSIWPcKaCJXEKxA==",
+  "dgSpecHash": "qBckHVlGEwsCiD9/ra3MMN7uUQD+60mvj8861PsxjsFSiqGN44ffJANyhtYt9O7GuTyHezgjj6w+hkkakIjcCA==",
   "success": true,
   "projectFilePath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj",
   "expectedPackageFiles": [
+    "/home/akmal199601/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.6/microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.6/microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
@@ -25,6 +28,7 @@
     "/home/akmal199601/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.5/npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

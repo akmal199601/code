@@ -42,6 +42,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -114,6 +118,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -186,6 +194,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -203,6 +215,71 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj",
+        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/akmal199601/RiderProjects/practica/Company/code/Contracts/Contracts.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Contracts/Contracts.csproj"
+              },
+              "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             }
           },
           "imports": [
@@ -254,6 +331,9 @@
               },
               "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj": {
                 "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj"
+              },
+              "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj"
               }
             }
           }
@@ -268,6 +348,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"

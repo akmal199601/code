@@ -2,6 +2,8 @@ using Contracts;
 using Entities;
 using LoggerService;
 using Microsoft.EntityFrameworkCore;
+using Repository;
+
 namespace code.Extensions;
 public static class ServiceExtensions
 {
@@ -31,4 +33,9 @@ public static class ServiceExtensions
         services.AddDbContext<RepositoryContext>(optionsAction =>
 
             optionsAction.UseNpgsql(configuration.GetConnectionString("PostgresCS"),ma=> ma.MigrationsAssembly("code")).LogTo(Console.WriteLine));
+
+    public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+    {
+        services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+    }
 }

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OHgEV2hwDlqqbayhY+3A4CL+t9S6Qy6dphDdWeuPAXJzNfUWiClJS7ktI82lqWwcZM5Mrxg3Lu8haCnVk9zelQ==",
+  "dgSpecHash": "O5s11PCcsvV5pjky/+hxYVry4eKcPgqao1II1qs4q7HPyJ/c+x07w4aGZmKmE0ZeRLK8w2raxXyznfsWHx8Wgg==",
   "success": true,
   "projectFilePath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj",
   "expectedPackageFiles": [
+    "/home/akmal199601/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.6/microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.6/microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
@@ -23,6 +26,7 @@
     "/home/akmal199601/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.5/npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/home/akmal199601/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/akmal199601/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
