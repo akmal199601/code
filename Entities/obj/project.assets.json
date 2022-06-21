@@ -906,7 +906,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/akmal199601/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -914,11 +914,11 @@
       "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj",
       "projectName": "Entities",
       "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/akmal199601/.nuget/packages/",
       "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/akmal199601/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

@@ -1282,7 +1282,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/akmal199601/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1290,11 +1290,11 @@
       "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/code/code.csproj",
       "projectName": "code",
       "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/code/code.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/akmal199601/.nuget/packages/",
       "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/code/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/akmal199601/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

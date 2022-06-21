@@ -1021,7 +1021,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/akmal199601/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1029,11 +1029,11 @@
       "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj",
       "projectName": "LoggerService",
       "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/akmal199601/.nuget/packages/",
       "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/akmal199601/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
