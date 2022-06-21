@@ -1,0 +1,17 @@
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Contracts.deps.json
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Contracts.runtimeconfig.json
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Contracts.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Contracts.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Entities.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/bin/Debug/net6.0/Entities.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfoInputs.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfo.cs
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.csproj.CoreCompileInputs.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.csproj.CopyComplete
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/refint/Contracts.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/Contracts.genruntimeconfig.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/Debug/net6.0/ref/Contracts.dll

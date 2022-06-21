@@ -1,0 +1,14 @@
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/bin/Debug/net6.0/Entities.deps.json
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/bin/Debug/net6.0/Entities.runtimeconfig.json
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/bin/Debug/net6.0/Entities.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/bin/Debug/net6.0/Entities.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.AssemblyInfoInputs.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/refint/Entities.dll
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.pdb
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/Entities.genruntimeconfig.cache
+/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/Debug/net6.0/ref/Entities.dll
