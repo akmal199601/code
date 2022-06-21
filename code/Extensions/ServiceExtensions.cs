@@ -18,7 +18,7 @@ public static class ServiceExtensions
                 );
         });
     }
-    public static void ConfigureIISIntegration(this IServiceCollection services)
+    public static void ConfigureIisIntegration(this IServiceCollection services)
     {
         services.Configure<IISOptions>(options =>
         {
@@ -31,7 +31,6 @@ public static class ServiceExtensions
     }
     public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration) =>
         services.AddDbContext<RepositoryContext>(optionsAction =>
-
             optionsAction.UseNpgsql(configuration.GetConnectionString("PostgresCS"),ma=> ma.MigrationsAssembly("code")).LogTo(Console.WriteLine));
 
     public static void ConfigureRepositoryWrapper(this IServiceCollection services)

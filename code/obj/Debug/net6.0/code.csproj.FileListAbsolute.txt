@@ -46,3 +46,5 @@
 /home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/Repository.pdb
 /home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/AutoMapper.dll
 /home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/Services.dll
+/home/akmal199601/RiderProjects/practica/Company/code/code/bin/Debug/net6.0/Services.pdb

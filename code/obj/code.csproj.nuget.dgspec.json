@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Contracts/Contracts.csproj",
         "projectName": "Contracts",
         "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Contracts/Contracts.csproj",
-        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -90,11 +90,11 @@
         "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj",
         "projectName": "Entities",
         "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/Entities.csproj",
-        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -162,11 +162,11 @@
         "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj",
         "projectName": "LoggerService",
         "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/LoggerService.csproj",
-        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/LoggerService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -242,11 +242,11 @@
         "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj",
         "projectName": "Repository",
         "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj",
-        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -301,17 +301,73 @@
         }
       }
     },
+    "/home/akmal199601/RiderProjects/practica/Company/code/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Services/Services.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/akmal199601/RiderProjects/practica/Company/code/code/code.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/code/code/code.csproj",
         "projectName": "code",
         "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/code/code.csproj",
-        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/akmal199601/RiderProjects/practica/Company/code/code/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -334,6 +390,9 @@
               },
               "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj": {
                 "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Repository/Repository.csproj"
+              },
+              "/home/akmal199601/RiderProjects/practica/Company/code/Services/Services.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/code/Services/Services.csproj"
               }
             }
           }

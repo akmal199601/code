@@ -17,6 +17,7 @@
           "NLog.Extensions.Logging": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
           "Repository": "1.0.0",
+          "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -308,6 +309,14 @@
         "runtime": {
           "Repository.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        }
       }
     }
   },
@@ -557,6 +566,11 @@
       "sha512": ""
     },
     "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
