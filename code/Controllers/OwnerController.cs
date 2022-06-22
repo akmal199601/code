@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace code.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/onwer")]
 [ApiController]
 public class OwnerController : ControllerBase
 {
@@ -36,6 +36,13 @@ public class OwnerController : ControllerBase
           _logger.LOgError($"Something went wrong inside GetAllOwners action :{ex.Message}");
           return StatusCode(500, "INterner server error");
         }
+    }
+    [HttpGet]
+    public IActionResult GetOwners()
+    {
+        var owners = _repWrapper.Owner.GetAllOwners();
+        _logger.LOgInfo($"REturned all owners from database");
+        return Ok(owners);
     }
 
     [HttpGet("{id}")]
@@ -158,5 +165,27 @@ public class OwnerController : ControllerBase
             return StatusCode(500, "Internal server error");
         }
     }
-    
+
+    [HttpDelete("{id}")]
+    public IActionResult DeleteOwner(Guid id)
+    {
+        try
+        {
+            var owner = _repWrapper.Owner.GetOwnerById(id);
+            if(_repWrapper.Account.AccountByOwner(id).Any())
+            {
+                _logger.LOgError($"Cannot delete owner with id: {id}. It has related accounts. Delete those accounts first");
+                return BadRequest("Cannot delete owner. It has related accounts. Delete those accounts first");
+            }
+            _repWrapper.Owner.DeleteOwner(owner);
+            _repWrapper.Save();
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            _logger.LOgError($"Something went wrong inside DeleteOwner action: {ex.Message}");
+            return StatusCode(500, "Internal server error");
+        }
+    }
 }

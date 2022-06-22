@@ -10,4 +10,9 @@ public class AccountRepository : RepositoryBase<Account>,IAccountRepository
     {
         
     }
+
+    public IEnumerable<Account> AccountByOwner(Guid ownerId)
+    {
+        return FindByCondition(a => a.OwnerId.Equals(ownerId)).ToList();
+    }
 }
